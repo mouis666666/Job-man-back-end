@@ -4,9 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start/me": "node .",
-    "start/watch": "node --watch .",
-    "start/dev_me": "nodemon ."
+    "build" :"npm i",
+    "start/node": "node .",
+    "start/node/watch": "node --watch .",
+    "start/nodemon": "nodemon ."
   },
   "author": "",
   "license": "ISC",

@@ -3,7 +3,7 @@
 import company_model from "../../../DB/models/company_model.js";
 import user_model from "../../../DB/models/user_model.js";
 import job_opportunity_model from "../../../DB/models/Job_opportunity_model.js";
-import application_model from './../../../DB/models/Application_model';
+import application_model from './../../../DB/models/Application_model.js';
 
 /**
  * 1. Add Job 

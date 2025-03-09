@@ -46,6 +46,9 @@ const bootstrap = () =>{
     app.use(helmet({xContentTypeOptions : false , crossOriginOpenerPolicy :false }) )
     app.use(rate_limit)
 
+    // this is for test 
+    app.get( "/test" , async (req , res ) =>{ await res.send( "  hello from test " )   } )
+
     // call the database
     DataBase()
     

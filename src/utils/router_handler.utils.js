@@ -5,7 +5,7 @@ import user_controller from "../modules/user/user_controller.js";
 import { main_schema } from "../GraphQl/main_schema.js";
 import company_controller from "../modules/company/company_controller.js";
 import Job_controller from "../modules/Job/Job_controller.js";
-import chat_Controller from "../modules/chat/chat_controller";
+import chat_Controller from "../modules/chat/chat_controller.js";
 
 
 
