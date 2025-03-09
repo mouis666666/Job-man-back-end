@@ -25,9 +25,9 @@ const corsOptions = {
 
 // to limit much req
 const rate_limit =  rateLimit({
-    windowMs : 15 * 60 * 1000 , // 15 minutes
+    windowMs : 1 * 60 * 1000 , // 1 minutes
     limit : 10 ,
-    message : "too many requests , please try again later" ,
+    message : "too many requests , please try again later " ,
     legacyHeaders : false
 })
 
